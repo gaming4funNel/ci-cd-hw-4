@@ -7,11 +7,14 @@
 3. Запустить и проверить работоспособность.
 4. Сделать первоначальную настройку.
 
+![CICD](https://github.com/gaming4funNel/ci-cd-hw-4/blob/main/img/0.png)
+
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
-
 ![CICD](https://github.com/gaming4funNel/ci-cd-hw-4/blob/main/img/1.png)
+![CICD](https://github.com/gaming4funNel/ci-cd-hw-4/blob/main/img/2.png)
+![CICD](https://github.com/gaming4funNel/ci-cd-hw-4/blob/main/img/3.png)
 
 2. Сделать Declarative Pipeline Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
 3. Перенести Declarative Pipeline в репозиторий в файл `Jenkinsfile`.
