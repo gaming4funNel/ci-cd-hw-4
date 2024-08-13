@@ -26,8 +26,12 @@
 
 5. Создать Scripted Pipeline, наполнить его скриптом из [pipeline](./pipeline).
 
+[ScriptedJenkinsfile](https://github.com/gaming4funNel/vector-role/blob/main/ScriptedJenkinsfile)
 
 6. Внести необходимые изменения, чтобы Pipeline запускал `ansible-playbook` без флагов `--check --diff`, если не установлен параметр при запуске джобы (prod_run = True). По умолчанию параметр имеет значение False и запускает прогон с флагами `--check --diff`.
+
+[ScriptedJenkinsfile](https://github.com/gaming4funNel/vector-role/blob/main/ScriptedJenkinsfile)
+
 7. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
 8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 9. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
